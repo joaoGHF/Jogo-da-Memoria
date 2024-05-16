@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Recuperar elementos
     const board = document.querySelector('.board');
-    const resultView = document.querySelector('#Result');
+    const resultView = document.querySelector('#result');
     let cardsChosen = [] // cartas escolhidas
     const cardsChosenId = [] // ids das cartas escolhidas para caso de click na mesma imagem 
     const cardsWon = [] // cartas combinadas
