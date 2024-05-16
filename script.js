@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     // Embaralhar todas as cartas
-    cards.sort(() => 0.5 - Math.randon());
+    cards.sort(() => 0.5 - Math.random());
 
     // Recuperar elementos
     const board = document.querySelector('.board');
