@@ -2,54 +2,66 @@ document.addEventListener('DOMContentLoaded', () => {
     //opções de cartas
     const cards = [
         {
-            name: 'android',
-            img: 'images/android.png'
+            name: 'assembly',
+            img: 'images/assemly.png'
         },
+        
         {
-            name: 'chrome',
-            img: 'images/chrome.png'
-        },
-        {
-            name: 'git',
-            img: 'images/git.png'
-        },
-        {
-            name: 'stackoverflow',
-            img: 'images/stackoverflow.png'
-        },
-        {
-            name: 'linux',
-            img: 'images/linux.png'
-        },
-        {
-            name: 'github',
-            img: 'images/github.png'
+            name: 'c',
+            img: 'images/c.png'
         },
 
         {
-            name: 'android',
-            img: 'images/android.png'
+            name: 'java',
+            img: 'images/java.svg'
         },
+
         {
-            name: 'chrome',
-            img: 'images/chrome.png'
+            name: 'javascript',
+            img: 'images/javascript.jpg'
         },
+
         {
-            name: 'git',
-            img: 'images/git.png'
+            name: 'php',
+            img: 'images/php.png'
         },
+
         {
-            name: 'stackoverflow',
-            img: 'images/stackoverflow.png'
+            name: 'python',
+            img: 'images/python.png'
         },
+        
+        //repeat
         {
-            name: 'linux',
-            img: 'images/linux.png'
+            name: 'assembly',
+            img: 'images/assemly.png'
         },
+        
         {
-            name: 'github',
-            img: 'images/github.png'
-        }
+            name: 'c',
+            img: 'images/c.png'
+        },
+
+        {
+            name: 'java',
+            img: 'images/java.svg'
+        },
+
+        {
+            name: 'javascript',
+            img: 'images/javascript.jpg'
+        },
+
+        {
+            name: 'php',
+            img: 'images/php.png'
+        },
+
+        {
+            name: 'python',
+            img: 'images/python.png'
+        },
+
     ]
 
     //embaralhar todas as cartas
