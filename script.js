@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cards = [
         {
             name: 'assembly',
-            img: 'images/assemly.png'
+            img: 'images/assembly.png'
         },
         
         {
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //repeat
         {
             name: 'assembly',
-            img: 'images/assemly.png'
+            img: 'images/assembly.png'
         },
         
         {
