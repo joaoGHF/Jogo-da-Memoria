@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createBoard() {
         for (let i = 0; i < cards.length; i++) {
             const card = document.createElement('img')
-            card.setAttribute('src', 'images/board.png')
+            card.setAttribute('src', 'images/board.jpeg')
             card.setAttribute('data-id', i)
             card.addEventListener('click', flipCard)
             board.appendChild(card)
@@ -93,8 +93,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         //verificar clique na mesma imagem
         if (optionOneId == optionTwoId) {
-            cards[optionOneId].setAttribute('src', 'images/board.png')
-            cards[optionTwoId].setAttribute('src', 'images/board.png')
+            cards[optionOneId].setAttribute('src', 'images/board.jpeg')
+            cards[optionTwoId].setAttribute('src', 'images/board.jpeg')
             alert('Você clicou na mesma imagem')
 
         }
@@ -107,8 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
             cards[optionTwoId].removeEventListener('click', flipCard)
             cardsWon.push(cardsChosen)
         } else {
-            cards[optionOneId].setAttribute('src', 'images/board.png')
-            cards[optionTwoId].setAttribute('src', 'images/board.png')
+            cards[optionOneId].setAttribute('src', 'images/board.jpeg')
+            cards[optionTwoId].setAttribute('src', 'images/board.jpeg')
             alert('Errou, tente novamente')
         }
         cardsChosen = []
