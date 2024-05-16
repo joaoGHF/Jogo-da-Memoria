@@ -1,6 +1,6 @@
 body {
-    background: rgb(7,205,0);
-    background: radial-gradient(circle, rgba(7,205,0,1) 23%, rgba(0,136,7,1) 100%);
+    background: rgb(93, 170, 90);
+    background: radial-gradient(circle, rgb(93, 170, 90) 23%, rgb(0, 182, 9) 100%);
 }
 
 .span-result {
